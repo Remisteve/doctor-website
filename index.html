@@ -580,157 +580,133 @@
 
 
 
-      <!-- 
-        - #BLOG
-      -->
+      <!-- #BLOG -->
+<section class="section blog" id="blog" aria-label="blog">
+  <div class="container">
+    <p class="section-subtitle text-center">From My Desk</p>
+    <h2 class="h2 section-title text-center">Recent Updates & News</h2>
 
-      <section class="section blog" id="blog" aria-label="blog">
-        <div class="container">
+    <ul class="blog-list">
+      <li>
+        <div class="blog-card">
+          <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+            <img src="./assets/images/blog-1.jpg" width="1180" height="800" loading="lazy"
+              alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+            <div class="card-badge">
+              <ion-icon name="calendar-outline"></ion-icon>
+              <time class="time" datetime="2024-10-12">12th October 2024</time>
+            </div>
+          </figure>
 
-          <p class="section-subtitle text-center">From My Desk</p>
+          <div class="card-content">
+            <h3 class="h3">
+              <a href="#" class="card-title">Patient Consultation and Support</a>
+            </h3>
+            <p class="card-text">
+              As a General Practitioner, I’m committed to providing thorough consultations and
+              genuine support for each of my patients. I know how important it is to feel heard and understood,
+              so I make it a priority to get to know each patient as an individual.
+            </p>
 
-          <h2 class="h2 section-title text-center"> Recent Updates & News</h2>
-
-          <ul class="blog-list">
-
-            <li>
-              <div class="blog-card">
-
-                <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
-                  <img src="./assets/images/blog-1.jpg" width="1180" height="800" loading="lazy"
-                    alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
-
-                  <div class="card-badge">
-                    <ion-icon name="calendar-outline"></ion-icon>
-
-                    <time class="time" datetime="2024-10-12">12th October 2024</time>
-                  </div>
-                </figure>
-
-  
-  <!-- First card with "Read More" button -->
-  <div class="card-content">
-    <h3 class="h3">
-      <a href="#" class="card-title">Patient Consultation and Support</a>
-    </h3>
-
-    <p class="card-text">
-      As a General Practitioner, I’m committed to providing thorough consultations and
-      genuine support for each of my patients. I know how important it is to feel heard and understood,
-      so I make it a priority to get to know each patient as an individual.
-    </p>
-
-    <!-- Hidden content to reveal on clicking "Read More" -->
-    <p class="card-text" id="moreContent1" style="display: none;">
-      During our consultation, I take time to explain preventive measures, discuss treatment options, and 
-      recommend lifestyle adjustments. I believe that an informed patient is an empowered patient.
-    </p>
-
-    <a href="#" class="card-link" id="readMoreBtn1">Read More</a>
-  </div>
-</li>
-
-<li>
-  <!-- Second card with "Read More" button -->
-  <div class="blog-card">
-    <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
-      <img src="./assets/images/blog-2.jpg" width="1180" height="800" loading="lazy"
-        alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
-
-      <div class="card-badge">
-        <ion-icon name="calendar-outline"></ion-icon>
-        <time class="time" datetime="2024-10-12">12th October 2024</time>
-      </div>
-    </figure>
-
-    <div class="card-content">
-      <h3 class="h3">
-        <a href="#" class="card-title">Chronic Disease Management</a>
-      </h3>
-
-      <p class="card-text">
-        I focus on providing ongoing care and support to patients dealing with long-term 
-        conditions, such as diabetes, hypertension, and asthma. Managing a chronic illness can be challenging, 
-        and my goal is to make that journey as smooth and manageable as possible. 
-      </p>
-
-      <!-- Hidden content to reveal on clicking "Read More" -->
-      <p class="card-text" id="moreContent2" style="display: none;">
-        I work closely with each patient to develop a personalized treatment plan that addresses their specific needs, 
-        aiming to improve their quality of life and prevent complications.
-      </p>
-      <p>During our sessions, I help patients understand their condition, the importance
-         of medication adherence, and the role that lifestyle changes can play in managing symptoms.
-         Together, we monitor progress
-         regularly, adjusting treatments as needed to ensure the best possible outcomes. </p>
-         <p> I also educate patients on recognizing warning signs and empower them 
-          with tools to manage their health independently.
-          With a focus on holistic, patient-centered care, 
-          I strive to offer not just medical guidance but also emotional support.</p>
-          <p>Chronic Disease Management is about more than managing symptoms; it’s about helping 
-            each individual live fully and confidently while addressing the unique challenges of their condition.</p>
-
-      <a href="#" class="card-link" id="readMoreBtn2">Read More</a>
-    </div>
-  </div>
-</li>
-
-<li>
-  <!-- Third card with "Read More" button -->
-  <div class="blog-card">
-    <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
-      <img src="./assets/images/blog-3.jpg" width="1180" height="800" loading="lazy"
-        alt="Seas accumsan nulla nec lacus ultricies placerat." class="img-cover">
-
-      <div class="card-badge">
-        <ion-icon name="calendar-outline"></ion-icon>
-        <time class="time" datetime="2024-10-12">12th October 2024</time>
-      </div>
-    </figure>
-
-    <div class="card-content">
-      <h3 class="h3">
-        <a href="#" class="card-title">Referral Services</a>
-      </h3>
-
-      <p class="card-text">
-        I ensure that patients receive comprehensive care by connecting them with specialists when needed.
-         As a General Practitioner, I understand that certain health issues 
-        may require the expertise of specialists to provide the best possible outcomes.</p>
-
-      <!-- Hidden content to reveal on clicking "Read More" -->
-      <p class="card-text" id="moreContent3" style="display: none;">
-        My role is to facilitate this process, guiding patients through their healthcare journey with a focus on continuity and support.
-        When a patient presents a condition that requires specialized attention, I conduct a
-        thorough assessment and determine the most appropriate referral based on their unique needs.
-      </p>
-      <p>I provide patients with detailed information about the specialist, including their background, the expected process, 
-        and what to anticipate during the visit.
-        Additionally, I maintain communication with referred specialists to ensure that there is a seamless exchange of
-         information regarding the patient’s health status and treatment plan.</p>
-         <p> This coordinated approach helps to create a holistic care experience, allowing patients 
-          to feel supported every step of the way.
-          My aim is to empower patients to seek further assistance when necessary while ensuring they
-           are well-informed and comfortable with their healthcare decisions.</p>
-           <p></p>
-
-      <a href="#" class="card-link" id="readMoreBtn3">Read More</a>
- 
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
+            <!-- Hidden content to reveal on clicking "Read More" -->
+            <p class="card-text more-content" id="moreContent1" style="display: none;">
+              During our consultation, I take time to explain preventive measures, discuss treatment options, and 
+              recommend lifestyle adjustments. I believe that an informed patient is an empowered patient.
+            </p>
+            <a href="#" class="card-link read-more-btn" data-target="moreContent1">Read More</a>
+          </div>
         </div>
-      </section>
+      </li>
 
-    </article>
-  </main>
+      <li>
+        <div class="blog-card">
+            <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                <img src="./assets/images/blog-2.jpg" width="1180" height="800" loading="lazy"
+                    alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+                <div class="card-badge">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                    <time class="time" datetime="2024-10-12">12th October 2024</time>
+                </div>
+            </figure>
+    
+            <div class="card-content">
+                <h3 class="h3">
+                    <a href="#" class="card-title">Chronic Disease Management</a>
+                </h3>
+                <p class="card-text">
+                    I focus on providing ongoing care and support to patients dealing with long-term
+                    conditions, such as diabetes, hypertension, and asthma. Managing a chronic illness can be challenging,
+                    and my goal is to make that journey as smooth and manageable as possible.
+                </p>
+    
+                <!-- Hidden content to reveal on clicking "Read More" -->
+                <div class="more-content" id="moreContent2" style="display: none;">
+                    <p>I work closely with each patient to develop a personalized treatment plan that addresses their specific needs,
+                    aiming to improve their quality of life and prevent complications.</p>
+                    <p>During our sessions, I help patients understand their condition, the importance
+                    of medication adherence, and the role that lifestyle changes can play in managing symptoms.
+                    Together, we monitor progress regularly, adjusting treatments as needed to ensure the best possible outcomes.</p>
+                    <p>I also educate patients on recognizing warning signs and empower them with tools to manage their health independently.
+                    With a focus on holistic, patient-centered care, I strive to offer not just medical guidance but also emotional support.</p>
+                    <p>Chronic Disease Management is about more than managing symptoms; it’s about helping
+                    each individual live fully and confidently while addressing the unique challenges of their condition.</p>
+                </div>
+    
+                <a href="#" class="card-link read-more-btn" data-target="moreContent2">Read More</a>
+            </div>
+        </div>
+    </li>
+    
 
+      <li>
+        <div class="blog-card">
+          <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+            <img src="./assets/images/blog-3.jpg" width="1180" height="800" loading="lazy"
+              alt="Seas accumsan nulla nec lacus ultricies placerat." class="img-cover">
+            <div class="card-badge">
+              <ion-icon name="calendar-outline"></ion-icon>
+              <time class="time" datetime="2024-10-12">25th October 2024</time>
+            </div>
+          </figure>
 
+          <div class="card-content">
+            <h3 class="h3">
+              <a href="#" class="card-title">Referral Services</a>
+            </h3>
+            <p class="card-text">
+              I ensure that patients receive comprehensive care by connecting them with specialists when needed.
+              As a General Practitioner, I understand that certain health issues 
+              may require the expertise of specialists to provide the best possible outcomes.
+            </p>
 
+            <!-- Hidden content to reveal on clicking "Read More" -->
+            <p class="card-text more-content" id="moreContent3" style="display: none;">
+              My role is to facilitate this process, guiding patients through their healthcare journey with a focus on continuity and support.
+              When a patient presents a condition that requires specialized attention, I conduct a thorough assessment 
+              and determine the most appropriate referral based on their unique needs.
+            </p>
+            <p class="card-text more-content" style="display: none;">
+              I provide patients with detailed information about the specialist, including their background, the expected process, 
+              and what to anticipate during the visit.
+            </p>
+            <p class="card-text more-content" style="display: none;">
+              Additionally, I maintain communication with referred specialists to ensure that there is a seamless exchange of
+              information regarding the patient’s health status and treatment plan.
+            </p>
+            <p class="card-text more-content" style="display: none;">
+              This coordinated approach helps to create a holistic care experience, allowing patients 
+              to feel supported every step of the way.
+              My aim is to empower patients to seek further assistance when necessary while ensuring they
+              are well-informed and comfortable with their healthcare decisions.
+            </p>
+
+            <a href="#" class="card-link read-more-btn" data-target="moreContent3">Read More</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
 
   <!-- 
@@ -784,7 +760,7 @@
             <a href="#" class="footer-link">
               <ion-icon name="add-outline"></ion-icon>
 
-              <span class="span">About Us</span>
+              <span class="span">About Me</span>
             </a>
           </li>
 
