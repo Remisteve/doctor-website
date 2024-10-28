@@ -63,6 +63,23 @@
         .appointment-form button:hover {
             background-color: #0056b3;
         }
+        .back-btn {
+            background-color: rgb(20, 31, 185); /* Blue background */
+            color: white; /* White text color */
+            font-size: var(--fs-7);
+            text-transform: uppercase;
+            padding: 20px 30px;
+            text-align: center; /* Center text alignment */
+            border-radius: 4px; /* Corrected border-radius syntax */
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Added box-shadow for depth */
+            text-decoration: none; /* Remove underline */
+            transition: background-color 0.3s; /* Transition effect for hover */
+        }
+
+        .back-btn:is(:hover, :focus) {
+            background-color: #0056b3; /* Darker blue on hover/focus */
+            color: white; /* Ensure text remains white */
+        }
 
         .notification {
             margin-top: 20px;
@@ -75,6 +92,11 @@
     </style>
 </head>
 <body>
+    <div id="notification" class="notification"></div>
+    
+    <!-- Back to Home button -->
+    <a href="index.html" class="back-btn">Home</a>
+</div>
 
 <div class="container">
     <h1>Book an Appointment</h1>
